@@ -1,0 +1,67 @@
+/* setto il box-sizing */
+*{
+  box-sizing: border-box;
+}
+
+/* carico un immagine per lo sfondo totale della pagina(essendo in body) */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.sfondo{
+  margin: auto;
+  width: 50%;
+  height: 800px;
+  background-color: rgba(0,0,0,0.35);
+  border-radius: 10px;
+}
+
+.testata{
+  text-align: center;
+}
+
+/* ridimensiono il logo */
+#logo{
+  width: 200px;
+  height: 100px;
+}
+
+header > h1{
+  color: rgb(10,255,50);
+}
+
+.navigazione{
+  background-color: rgb(10,255,50);
+  border-radius: 10px;
+  width: 75%;
+  height: 2,5%;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.C{
+  margin: auto;
+  width: 75%;
+  height: 100px;
+  color: white;
+}
+#carica1{
+  width: 250px;
+  height: 20px;
+  background-color: orange;
+  border-radius: 10px;
+}
+#carica2{
+  width: 400px;
+  height: 20px;
+  background-color: green;
+  border-radius: 10px;
+}
+#carica3{
+  width: 100px;
+  height: 20px;
+  background-color: red;
+  border-radius: 10px;
+}
